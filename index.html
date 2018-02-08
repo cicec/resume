@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clancy's Page</title>
-    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-    <!-- <link rel="stylesheet" href="css/bootstrap-grid.css"> -->
-    <!-- <link rel="stylesheet" href="css/bootstrap-reboot.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/start-page.css">
 </head>
 
@@ -17,11 +16,18 @@
     <!-- top-nav-bar -->
     <header>
         <div class="container">
-            <div class="logo">
-                <img src="./img/logo.png" alt="logo">
-            </div>
-            <div class="search">
-                <input type="text">
+            <div class="header-top">
+                <a class="logo" href="">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+                <form action="" class="search">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-search"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
             <nav>
                 <ul>
@@ -240,6 +246,12 @@
             </ul>
         </div>
     </footer>
+
+    <!-- import javascript -->
+    <script src="//at.alicdn.com/t/font_567466_8ealsc009h6nipb9.js"></script>
+
+    <!-- my javascript -->
+
 </body>
 
 </html>
