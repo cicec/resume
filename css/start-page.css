@@ -1,19 +1,5 @@
 /* global style */
 
-.icon {
-    width: 1em;
-    height: 1em;
-    vertical-align: -0.15em;
-    fill: currentColor;
-    overflow: hidden;
-}
-
-.container {
-    width: 940px;
-    margin: auto;
-    padding: 0 15px;
-}
-
 input[type="text"] {
     border: none;
     border-bottom: 1px solid #a6a9ac;
@@ -47,15 +33,29 @@ a:hover {
 p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 31px;
+    line-height: 34px;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
     color: #757575;
     background-color: #f5f8f9;
 }
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.container {
+    width: 940px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* end global */
 
 /* header */
 
@@ -186,6 +186,7 @@ header nav ul li:first-child {
 
 .banner-wrapper h1 {
     font-weight: 900;
+    font-size: 22px;
     top: 20px;
     left: 30px;
     right: 30px;
@@ -275,7 +276,7 @@ main .container {
 }
 
 .article-content h1 {
-    font-size: 32px;
+    font-size: 30px;
     margin: 18px 0;
 }
 
@@ -339,6 +340,7 @@ main .container {
 /* end articles */
 
 /* aside */
+
 .aside-block {
     flex: 0 0 31%;
     max-width: 31%;
@@ -440,9 +442,11 @@ main .container {
 .aside-block .categories-graphic::after {
     background: #6dc8bf;
 }
+
 /* end aside */
 
 /* footer */
+
 footer {
     background: #ffffff;
 }
@@ -453,11 +457,12 @@ footer .container {
     justify-content: space-between;
 }
 
-footer .container>p{
+footer .container>p {
     margin: 0;
 }
 
 footer .social>a {
-    font-size: 20px;
+    line-height: 34px;
+    font-size: 22px;
     margin: 0 6px;
 }
