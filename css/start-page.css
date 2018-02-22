@@ -63,6 +63,17 @@ header {
     background: #ffffff;
     height: 144px;
     box-shadow: 0px 3px 35px rgba(0, 0, 0, 0.04);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transition: all 0.6s;
+}
+
+header.scrolling {
+    top: -75px;
+    /* opacity: 0.96; */
 }
 
 header .header-top {
@@ -72,6 +83,11 @@ header .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.6s;
+}
+
+header.scrolling .header-top {
+    opacity: 0;
 }
 
 header .header-top .search {
@@ -121,7 +137,7 @@ header nav ul li:first-child {
 /* banners */
 
 .banners {
-    margin-top: 40px;
+    margin-top: 184px;
 }
 
 .banners .container {
@@ -181,7 +197,7 @@ header nav ul li:first-child {
 .banner-wrapper time {
     color: #ffffff;
     position: absolute;
-    z-index: 10;
+    z-index: 1;
 }
 
 .banner-wrapper h1 {
