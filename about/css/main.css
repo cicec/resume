@@ -123,3 +123,163 @@ header nav ul li:first-child {
 }
 
 /* end header */
+
+/* main */
+
+/* .general-info */
+
+.general-info {
+    margin-top: 40px;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.general-info .author {
+    flex: 0 0 27%;
+    margin-top: 0;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.general-info .author .social {
+    margin: 20px;
+}
+
+.general-info .author .social>a {
+    font-size: 28px;
+    margin: 0 6px;
+}
+
+.general-info .author>a {
+    display: block;
+    padding: 20px 0;
+    border-top: 1px solid #eceff2;
+}
+
+.general-info .author .message {
+    border-bottom: 1px solid #eceff2;
+}
+
+.general-info .author>a:hover {
+    background: #f5f8f9;
+    border-color: #f5f8f9;
+}
+
+.general-info .author>a>svg {
+    margin-right: 10px;
+}
+
+.general-info .introduce {
+    padding: 50px 40px;
+    border-left: 1px solid #eceff2;
+}
+
+.general-info .introduce>h1 {
+    color: #212121;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.general-info .introduce>span {
+    color: #a6a9ac;
+    font-size: 15px;
+}
+
+.general-info .introduce>p {
+    margin: 30px 0;
+}
+
+/* end general-info */
+
+/* detail-info */
+
+.detail-info {
+    margin-top: 40px;
+    padding: 50px 44px;
+    background: #ffffff;
+    box-shadow: 0px 3px 35px rgba(0, 0, 0, 0.04);
+    display: flex;
+}
+
+.detail-info .philoshopy {
+    flex: 0 0 50%;
+    padding-right: 22px;
+}
+
+.detail-info .philoshopy>h1 {
+    color: #212121;
+    margin-bottom: 32px;
+}
+
+.detail-info .philoshopy>p {
+    line-height: 27px;
+}
+
+.detail-info .skills {
+    flex: 0 0 50%;
+    padding-left: 22px;
+}
+
+.detail-info .skills>h1 {
+    color: #212121;
+    margin-bottom: 32px;
+}
+
+.detail-info .skills>ol {
+    padding-left: 70px;
+}
+
+.detail-info .skills>ol>li {
+    position: relative;
+}
+
+.detail-info .skills>ol>li>span {
+    transform: rotate(-90deg);
+    color: #cccfd3;
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 900;
+    position: absolute;
+    top: 12px;
+    left: -84px;
+    font-size: 60px;
+}
+
+.detail-info .skills>ol>li>h2 {
+    color: #212121;
+}
+
+.detail-info .skills>ol>li>p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* detail-info end */
+
+/* main end */
+
+/* footer */
+
+footer {
+    margin-top: 40px;
+    background: #ffffff;
+}
+
+footer .container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container>p {
+    margin: 0;
+}
+
+footer .social>a {
+    line-height: 34px;
+    font-size: 22px;
+    margin: 0 6px;
+}
+
+/* footer end */
